@@ -22,7 +22,7 @@ void update(int tree[], int x, int qLow, int qHigh, int low, int high, int pos)
 {
 	if(low>high||qHigh<low||qLow>high)
     {
-        return;
+		return;
     }
 	if(low==high)
 	{
